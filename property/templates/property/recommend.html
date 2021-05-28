@@ -1,0 +1,2373 @@
+{% extends "property/base.html" %}
+{% load static %}
+
+{% block title %} Recommend {% endblock title %}
+
+{% block content %}
+
+<div class="container-fluid my-0">
+  <div class="row border border-primary">
+    <h2>Space for Filter</h2>
+  </div>
+</div>
+
+<div class="container-fluid border border-primary my-4">
+  <div class="row m-5 p-5 text-center">
+    <h1>Space for Summary</h1>
+  </div>
+</div>
+
+<div class="container my-4">
+      <div class="row">
+
+      <!-- Grid column -->
+      <div class="col">
+        <!-- Section: Live preview -->
+        <section class="">
+
+          <ul class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link active" id="home-tab-md" data-toggle="tab" href="#home-md" role="tab" aria-controls="home-md" aria-selected="true">Golf Course Road</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md" aria-selected="false">Central Gurgaon</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#contact-md" role="tab" aria-controls="contact-md" aria-selected="false">Golf Course Extension</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="New-Gurgaon-tab-md" data-toggle="tab" href="#New-Gurgaon-md" role="tab" aria-controls="New-Gurgaon-md" aria-selected="false">New Gurgaon</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="Dwarka-Expressway-tab-md" data-toggle="tab" href="#Dwarka-Expressway-md" role="tab" aria-controls="Dwarka-Expressway-md" aria-selected="false">Dwarka Expressway</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="Sohna-Road-tab-md" data-toggle="tab" href="#Sohna-Road-md" role="tab" aria-controls="Sohna-Road-md" aria-selected="false">Sohna Road</a>
+            </li>
+          </ul>
+          <div class="tab-content card pt-5" id="myTabContentMD">
+            <div class="tab-pane fade show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
+
+              <!-- Golf Course Road-->
+               <h2 class="secondary-heading mb-3"><b> Recommended Properties on Golf Course Road</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+                  <div class="carousel-inner row w-10 mx-auto" role="listbox">
+                      <div class="carousel-item col-lg-3 col-md-6 active">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Ultima <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Carlton <span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton 4<span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton 5<span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton 6<span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                          <i class="fa fa-chevron-left fa-lg text-mute"></i>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                          <i class="fa fa-chevron-right fa-lg text-muted"></i>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+              </div>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+                  <div class="carousel-inner row w-10 mx-auto" role="listbox">
+                      <div class="carousel-item col-lg-3 col-md-6 active">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item col-lg-3 col-md-6">
+                        <div class="card mb-2">
+                          <div class="view overlay">
+                            <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                          <div class="card-body p-3">
+                            <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                            <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                            <span class="badge bg-success">Ready to Move</span>
+
+                            {% comment %}
+                            <ul class="list-unstyled list-inline my-2">
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star mimosa-text"></i></li>
+                              <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt mimosa-text"></i></li>
+                            </ul>
+                            {% endcomment %}
+                            <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                            <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                            <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                          <i class="fa fa-chevron-left fa-lg text-mute"></i>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                          <i class="fa fa-chevron-right fa-lg text-muted"></i>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
+
+              <!-- Central Gurgaon -->
+               <h2 class="secondary-heading mb-3"><b> Recommended Properties on Central-Gurgaon</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+            </div>
+            <div class="tab-pane fade" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
+
+              <!-- Golf Course Extension Extension-->
+               <h2 class="secondary-heading mb-3"><b> Recommended Properties on Golf Course Extension</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+            </div>
+            <div class="tab-pane fade" id="New-Gurgaon-md" role="tabpanel" aria-labelledby="New-Gurgaon-tab-md">
+              <!-- New Gurgaon -->
+               <h2 class="secondary-heading mb-3"><b> Recommended Properties on New Gurgaon</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+            </div>
+            <div class="tab-pane fade" id="Dwarka-Expressway-md" role="tabpanel" aria-labelledby="Dwarka-Expressway-tab-md">
+              <!-- Dwarka Expressway -->
+              <h2 class="secondary-heading mb-3"><b> Recommended Properties on Dwarka Expressway</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+            </div>
+            <div class="tab-pane fade" id="Sohna-Road-md" role="tabpanel" aria-labelledby="Sohna-Road-tab-md">
+              <!-- Sohna Road -->
+               <h2 class="secondary-heading mb-3"><b> Recommended Properties on Sohna Road</b></h2>
+              <!-- Projects -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Projects</h3>
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+
+              <!-- Builder Floor -->
+              <h3 id="" class="py-3 text-center border-bottom border-top border-primary">Builder Floors</h3>
+
+              <section>
+
+                  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2 product-carousel" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top my-3">
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                      <a class="btn-floating btn-sm" href="#carousel-example-multi" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="carousel-item active mx-auto">
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                              <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mx-auto">
+                          <div class="card mb-2">
+                            <div class="view overlay">
+                              <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                              <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                              </a>
+                            </div>
+                            <div class="card-body p-3">
+                              <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                              <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                              <span class="badge bg-success">Ready to Move</span>
+                              <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                              <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                              <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+
+                                <p class="chili-pepper-text mb-0"><strong><strong>1.24 Cr - 2.00 Cr</strong></strong></p>
+
+                                <a class="btn-sm btn-info " href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/builder-floor-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-info">New</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6 mx-auto">
+                            <div class="card mb-2">
+                              <div class="view overlay">
+                                <img class="card-img-top" src="{% static 'media/Card-img.jpg' %}" alt="Card image cap">
+                                <a href="#!">
+                                  <div class="mask rgba-white-slight"></div>
+                                </a>
+                              </div>
+                              <div class="card-body p-3">
+                                <h5 class="card-title font-weight-bold fuchsia-rose-text mb-0">DLF Princeton <span class="badge bg-warning">Resale</span></h5>
+                                <p class="aqua-sky-text mb-0"><small>DLF Phase V, Sector 43 , Gurgaon</small></p>
+                                <span class="badge bg-success">Ready to Move</span>
+                                <p class="chili-pepper-text mb-0"><strong>1.24 Cr - 2.00 Cr</strong></p>
+                                <a class="btn-sm btn-info" href="#" role="">Shortlist</a>
+                                <a class="btn-sm btn-info" href="#" role="button">Call Back</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </section>
+            </div>
+          </div>
+
+        </section>
+        <!-- Section: Live preview -->
+
+      </div>
+      <!-- Grid column -->
+
+      </div>
+
+</div>
+
+{% comment %}
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light mt-3 mb-5 d-flex justify-content-center">
+
+  <!-- Navbar brand -->
+  <span class="navbar-brand"><b></span>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Golf-Course-Road"><h5><b>Golf Course Road</b></h5></a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Central-Gurgaon"><h5><b>Central Gurgaon</b></h5></a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Golf-Course-Extension"><h5><b>Golf Course Extension</b></h5></a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#New-Gurgaon"><h5><b>New Gurgaon</b></h5></a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Dwarka-Expressway"><h5><b>Dwarka Expressway</b></h5></a>
+      </li>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#Sohna-Road"><h5><b>Sohna Road</b></h5></a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+{% endcomment %}
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+{% endblock javascripts %}

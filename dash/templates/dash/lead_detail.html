@@ -1,0 +1,159 @@
+
+{% extends "dash/base.html" %}
+
+{% block stylesheets %}
+<style>
+.top-margin {
+  margin-top : 100px;
+
+}
+  </style>
+{% endblock stylesheets %}
+
+{% block content %}
+<!-- Information Column Start-->
+<div class="container top-margin">
+      <div class="row">
+
+      <!-- Grid column -->
+      <div class="col">
+        <!-- Section: Live preview -->
+        <section class="">
+
+          <ul class="nav nav-tabs md-tabs" id="myTabMD" role="tablist">
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link active" id="home-tab-md" data-toggle="tab" href="#home-md" role="tab" aria-controls="home-md" aria-selected="true">Basic Info</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md" aria-selected="false">Requirement</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="contact-tab-md" data-toggle="tab" href="#contact-md" role="tab" aria-controls="contact-md" aria-selected="false">Lead Info</a>
+            </li>
+            <li class="nav-item waves-effect waves-light">
+              <a class="nav-link" id="New-Gurgaon-tab-md" data-toggle="tab" href="#New-Gurgaon-md" role="tab" aria-controls="New-Gurgaon-md" aria-selected="false">Extra Info</a>
+            </li>
+          </ul>
+          <div class="tab-content card pt-5" id="myTabContentMD">
+            <div class="tab-pane fade show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
+              <p class="text-left px-3"> Name : {{ lead.first_name }} {{ lead.last_name }}</p>
+              <p class="text-left px-3"> Phone Number : <a href="tel:{{ lead.phone }}"> {{ lead.phone }} </a> </p>
+              <p class="text-left px-3"> Email : {{ lead.mail }}</p>
+            </div>
+            <div class="tab-pane fade" id="profile-md" role="tabpanel" aria-labelledby="profile-tab-md">
+              <p class="text-left px-3"> Property Type : {{ lead.property_type }}</p>
+              <p class="text-left px-3"> Bedrooms : {{ lead.bedrooms }}</p>
+              <p class="text-left px-3"> Budget : {{ lead.budget }}</p>
+              <p class="text-left px-3"> Budget Category : {{ lead.budget_category }}</p>
+              <p class="text-left px-3"> Project Status : {{ lead.project_status }}</p>
+              <p class="text-left px-3"> Purpose Of Buying : {{ lead.purpose }}</p>
+              <p class="text-left px-3"> Any Preferred Location <small> * if any</small> : {{ lead.preferred_location }}</p>
+              <p class="text-left px-3"> Notes : {{ lead.notes }}</p>
+            </div>
+            <div class="tab-pane fade" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
+              <p class="text-left px-3"> Lead Id : {{ lead.id }}</p>
+              <p class="text-left px-3"> Lead Status : {{ lead.lead_status }}</p>
+              <p class="text-left px-3"> Date Created On : {{ lead.created_on }}</p>
+              <p class="text-left px-3"> Next Call Date : {{ lead.next_call_date }}</p>
+              <p class="text-left px-3"> Source : {{ lead.campaign }}</p>
+              <p class="text-left px-3"> Inventory Shared : {{ lead.inventory_shared }}</p>
+            </div>
+            <div class="tab-pane fade" id="New-Gurgaon-md" role="tabpanel" aria-labelledby="New-Gurgaon-tab-md">
+              <p class="text-left px-3"> Occupation : {{ lead.occupation }}</p>
+              <p class="text-left px-3"> Office Address : {{ lead.office_address }}</p>
+              <p class="text-left px-3"> Residence Address : {{ lead.residence_address }}</p>
+            </div>
+            <div class="tab-pane fade" id="Dwarka-Expressway-md" role="tabpanel" aria-labelledby="Dwarka-Expressway-tab-md">
+            </div>
+            <div class="tab-pane fade" id="Sohna-Road-md" role="tabpanel" aria-labelledby="Sohna-Road-tab-md">
+            </div>
+          </div>
+
+        </section>
+        <!-- Section: Live preview -->
+
+      </div>
+      <!-- Grid column -->
+
+      </div>
+
+</div>
+<!-- Information Column End-->
+
+<div class="container">
+<!-- account-section start -->
+<div class="col">
+    <div class="card">
+        <div class="card-header">
+            <h5>Activity Feed</h5>
+            <div class="card-header-right">
+                <div class="btn-group card-option">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="feather icon-more-horizontal"></i>
+                    </button>
+                    <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                        <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                        <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                        <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                        <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <ul class="feed-blog pl-0">
+                <li class="active-feed">
+                    <div class="feed-user-img">
+                        <img src="/static/assets/images/user/avatar-4.jpg" class="img-radius " alt="User-Profile-Image">
+                    </div>
+                    <h6><span class="badge badge-danger">File</span> Eddie uploaded new files: <small class="text-muted">2 hours ago</small></h6>
+                    <p class="m-b-15 m-t-15">hii <b> @everone</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="row">
+                        <div class="col-auto text-center">
+                            <img src="/static/assets/images/gallery-grid/img-grd-gal-1.jpg" alt="img" class="img-fluid wid-100">
+                            <h6 class="m-t-15 m-b-0">Old Scooter</h6>
+                            <p class="text-muted m-b-0"><small>PNG-100KB</small></p>
+                        </div>
+                        <div class="col-auto text-center">
+                            <img src="/static/assets/images/gallery-grid/img-grd-gal-2.jpg" alt="img" class="img-fluid wid-100">
+                            <h6 class="m-t-15 m-b-0">Wall Art</h6>
+                            <p class="text-muted m-b-0"><small>PNG-150KB</small></p>
+                        </div>
+                        <div class="col-auto text-center">
+                            <img src="/static/assets/images/gallery-grid/img-grd-gal-3.jpg" alt="img" class="img-fluid wid-100">
+                            <h6 class="m-t-15 m-b-0">Microphone</h6>
+                            <p class="text-muted m-b-0"><small>PNG-150KB</small></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="diactive-feed">
+                    <div class="feed-user-img">
+                        <img src="/static/assets/images/user/avatar-4.jpg" class="img-radius " alt="User-Profile-Image">
+                    </div>
+                    <h6><span class="badge badge-success">Task</span> Sarah marked the Pending Review: <span class="text-c-green"> Trash Can Icon Design</span><small class="text-muted"> 2 hours ago</small></h6>
+                </li>
+                <li class="diactive-feed mb-0">
+                    <div class="feed-user-img">
+                        <img src="/static/assets/images/user/avatar-4.jpg" class="img-radius " alt="User-Profile-Image">
+                    </div>
+                    <h6><span class="badge badge-primary">comment</span> abc posted a task: <span class="text-c-green">Design a new Homepage</span> <small class="text-muted">6 hours ago</small></h6>
+                    <p class="m-b-15 m-t-15">hii <b> @everone</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- account-section end -->
+
+</div>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <!-- Apex Chart -->
+    <script src="/static/assets/js/plugins/apexcharts.min.js"></script>
+    <!-- custom-chart js -->
+    <script src="/static/assets/js/pages/dashboard-main.js"></script>
+
+{% endblock javascripts %}

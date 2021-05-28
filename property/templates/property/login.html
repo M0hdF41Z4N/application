@@ -1,0 +1,92 @@
+{% extends "property/base.html" %}
+{% load static %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+
+
+{% endblock stylesheets %}
+
+{% block title %} Login {% endblock title %}
+
+{% block content %}
+
+<style>
+	#intro {
+        background-image: url({% static 'media/login-bg.jpg' %});
+        height: 100vh;
+
+      }
+	/* Height for devices larger than 576px */
+	@media (min-width: 992px) {
+		#intro {
+			margin-top: -58.59px;
+			margin-bottom: -18.59px
+			      }
+		}
+
+
+
+</style>
+
+
+<!-- Background image -->
+<div id="intro" class="bg-image">
+	<div class="mask d-flex align-items-center h-100" style="">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-5 col-md-8">
+					<p class="h6 text-white text-center p-3">Enter your personal details and start journey with us.</p>
+					<form class="bg-secondary rounded shadow-5-strong p-5">
+						<!-- Email input -->
+						<div class="form-outline mb-4">
+							<input type="email" id="form1Example1" class="form-control" placeholder="Name"/>
+							<label class="form-label" for="form1Example1"></label>
+						</div>
+
+						<!-- Password input -->
+						<div class="form-outline mb-4">
+							<input type="password" id="form1Example2" class="form-control" placeholder="Mobile Number"/>
+							<label class="form-label" for="form1Example2"></label>
+						</div>
+
+						<!-- 2 column grid layout for inline styling -->
+						<div class="row mb-4">
+							<div class="col d-flex justify-content-center">
+								<!-- Checkbox -->
+								<div class="form-check text-white">
+									<input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+									<label class="form-check-label" for="form1Example3">
+										Remember me
+									</label>
+								</div>
+								<!-- Checkbox -->
+								<div class="form-check text-white">
+									<input class="form-check-input" type="checkbox" value="" id="form1Example4" />
+									<label class="form-check-label" for="form1Example4">
+										Get Expert Help
+									</label>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Submit button -->
+						<button type="submit" class="btn btn-secondary btn-block">Login</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+        </div>
+      </div>
+<!-- Background image -->
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+
+{% endblock javascripts %}
